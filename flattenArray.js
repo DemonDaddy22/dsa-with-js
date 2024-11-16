@@ -26,7 +26,7 @@ const flatten = (arr, n) => {
     }
   }
 
-  return arr;
+  return flatArr;
 };
 
 console.log(JSON.stringify(flatten(JSON.parse(array), depth)));
