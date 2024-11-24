@@ -8,11 +8,8 @@ const isOdd = (num) => {
 };
 
 const countOdds = (low, high) => {
-  let count = 0;
-  for (let i = low; i <= high; i++) {
-    if (isOdd(i)) {
-      count++;
-    }
+  if (isOdd(low) && isOdd(high)) {
+    return (high - low) / 2 + 1;
   }
-  return count;
+  return Math.ceil((high - low) / 2);
 };
