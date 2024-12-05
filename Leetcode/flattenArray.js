@@ -10,7 +10,7 @@
   Please solve it without the built-in Array.flat method.
 */
 
-const [array, depth] = require('./inputs');
+const [array, depth] = require('../inputs');
 
 const flatten = (arr, n) => {
   if (n <= 0) {

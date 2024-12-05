@@ -4,7 +4,7 @@
 
 // can directly do s.toLowerCase() as well
 
-const [word] = require('./inputs');
+const [word] = require('../inputs');
 
 const LOWER_AND_UPPER_CHAR_GAP = 32;
 const UPPER_CASE_RANGE = Object.freeze({

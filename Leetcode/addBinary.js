@@ -2,7 +2,7 @@
   Problem - Given two binary strings a and b, return their sum as a binary string.
 */
 
-const arguments = require('./inputs');
+const arguments = require('../inputs');
 const [binary1, binary2] = arguments;
 
 let carry = 0;

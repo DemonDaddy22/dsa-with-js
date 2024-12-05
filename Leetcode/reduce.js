@@ -8,7 +8,7 @@
   Please solve it without using the built-in Array.reduce method.
 */
 
-const args = require('./inputs');
+const args = require('../inputs');
 const [array, func, init] = args;
 
 const reduce = (arr, fn, initial) => {

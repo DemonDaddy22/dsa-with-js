@@ -8,7 +8,7 @@
   You may assume each function in the array accepts one integer as input and returns one integer as output.
 */
 
-const args = require('./inputs');
+const args = require('../inputs');
 const func = args;
 
 const composition = (arr) => {

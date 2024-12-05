@@ -4,7 +4,7 @@
   Please solve it without the built-in Array.map method.
 */
 
-const args = require('./inputs');
+const args = require('../inputs');
 const [array, func] = args;
 
 const transform = (arr, fn) => {

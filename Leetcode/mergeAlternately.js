@@ -6,7 +6,7 @@
   Return the merged string.
 */
 
-const [w1, w2] = require('./inputs');
+const [w1, w2] = require('../inputs');
 
 const mergeAlternately = (word1, word2) => {
   let i = 0, j = 0, n = word1.length, m = word2.length;
